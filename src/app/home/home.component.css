@@ -1,0 +1,25 @@
+.tile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.show-button{
+  background-color: transparent;
+  border:none;
+  color: white;
+  font-size: 20px;
+  transition: all .3s;
+}
+
+.show-button:hover{
+  cursor: pointer;
+  font-size: 21px;
+}
+
+.button-container{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

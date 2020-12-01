@@ -1,0 +1,9 @@
+<app-header></app-header>
+<div class="favorite-container">
+  <app-tiles class="tiles"
+    *ngFor="let watchlistGuy of watchlist"
+    [movieRef]="watchlistGuy"
+    (watchlistEvent)="toggleWatchlist($event)"
+    (detailEvent)="showDetail($event)"
+  ></app-tiles>
+</div>
